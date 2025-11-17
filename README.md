@@ -1,2 +1,1 @@
-# Tivani-Resume
-this is my digital portfolio
+DO IT ADROITLY PORTFOLIO
