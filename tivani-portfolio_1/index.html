@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tivani Nick Mathebula — Data Security Analyst &amp; IAM Specialist</title>
+<meta name="description" content="Tivani Nick Mathebula — Data Security Analyst specializing in Identity &amp; Access Management, database security monitoring, and reporting &amp; analytics.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="boot-screen" id="bootScreen" role="status" aria-label="Loading site">
+  <div class="boot-inner">
+    <div class="boot-top"><span class="dot"></span><span>secure boot — tivani.mathebula</span></div>
+    <div class="boot-log" id="bootLog"></div>
+    <div class="boot-bar"><i id="bootBarFill"></i></div>
+    <div class="boot-skip">press any key to skip</div>
+  </div>
+</div>
+
+<header>
+  <nav class="nav">
+    <a href="#hero" class="brand"><span class="dot"></span>tivani.mathebula</a>
+    <ul class="nav-links">
+      <li><a href="#hero" class="active"><span class="idx">00</span>Home</a></li>
+      <li><a href="#about"><span class="idx">01</span>About</a></li>
+      <li><a href="#resume"><span class="idx">02</span>Resume</a></li>
+      <li><a href="#portfolio"><span class="idx">03</span>Portfolio</a></li>
+      <li><a href="#services"><span class="idx">04</span>Services</a></li>
+    </ul>
+    <a href="#contact" class="nav-cta">Get in touch</a>
+    <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <canvas class="code-rain" id="codeRain" aria-hidden="true"></canvas>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Available for opportunities</span>
+      <h1>Tivani Nick<br>Mathebula<span>.</span></h1>
+      <div class="role">Data Security Analyst &nbsp;/&nbsp; Identity &amp; Access Management &nbsp;/&nbsp; Reporting &amp; Analytics</div>
+      <p class="desc">I monitor and secure access to sensitive data, govern identity across enterprise systems, and turn security and compliance data into reporting people actually use — built on Power BI, SQL, and hands-on IAM engineering.</p>
+      <div class="hero-actions">
+        <a href="https://tivaninick.vercel.app/Tivani%20Nick%20CV%20Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download résumé
+        </a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-socials">
+        <a class="icon-btn" href="https://www.facebook.com/share/1DQDm22upE/" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.instagram.com/tn_jun10r?igsh=anZucm14M2J5bzJl" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a class="icon-btn" href="https://www.linkedin.com/in/tivani-nick-mathebula-5b0730204" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div>
+      <div class="terminal">
+        <div class="term-bar"><span></span><span></span><span></span><div class="lbl">access-console — session</div></div>
+        <div class="term-body" id="termBody"></div>
+      </div>
+      <div class="hero-photo-wrap">
+        <img class="hero-photo" src="https://tivaninick.vercel.app/hero.png" alt="Tivani Nick Mathebula">
+        <div class="hero-photo-meta"><b>Riverside View, Diepsloot</b>South Africa · Diploma in Computer Science</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">01 / About</span>
+      <h2 class="sec-title">Security-minded, reporting-driven.</h2>
+      <p class="sec-sub">A multifaceted professional with a focus on creativity, technology, security, and problem-solving.</p>
+    </div>
+    <div class="about-grid">
+      <div class="about-photo reveal">
+        <img src="https://tivaninick.vercel.app/picture.png" alt="Portrait of Tivani Nick Mathebula">
+        <span class="about-tag">Data Security Analyst</span>
+      </div>
+      <div class="about-copy reveal">
+        <p>As a Data Security Analyst with a strong foundation in Identity and Access Management, I focus on monitoring, auditing, and securing access to sensitive data while supporting compliance and risk management objectives.</p>
+        <p>I bring hands-on experience in identity governance, access controls, and audit support, complemented by strong reporting and analytics skills. Through Microsoft Power BI, SQL, and enterprise reporting platforms, I translate complex security and access data into insights that inform decisions across security, compliance, and business teams.</p>
+        <div class="facts">
+          <div class="fact"><div class="k">Birthday</div><div class="v">2 August 1998</div></div>
+          <div class="fact"><div class="k">Phone</div><div class="v">+27 83 761 5870</div></div>
+          <div class="fact"><div class="k">City</div><div class="v">Diepsloot, South Africa</div></div>
+          <div class="fact"><div class="k">Qualification</div><div class="v">Diploma, Computer Science</div></div>
+          <div class="fact"><div class="k">Email</div><div class="v">tivaninick71@gmail.com</div></div>
+          <div class="fact"><div class="k">Status</div><div class="v">Open to IAM / DSM / SOC roles</div></div>
+        </div>
+        <div class="focus-tags">
+          <span>IAM</span><span>Data Security Monitoring</span><span>SOC</span><span>Power BI</span><span>SQL</span><span>Audit &amp; Compliance</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">02 / Skills</span>
+      <h2 class="sec-title">What I bring to the table.</h2>
+      <p class="sec-sub">Worked in agile teams and individually — currently looking for roles in IAM, Data Security, SOC, or Data Analytics.</p>
+    </div>
+    <div class="skill-list reveal" id="skillList">
+      <div class="skill-row" data-pct="90"><div class="top"><span class="name">Data Security Monitoring</span><span class="pct">90%</span></div><div class="bar"><i></i></div></div>
+      <div class="skill-row" data-pct="90"><div class="top"><span class="name">Role management &amp; RBAC</span><span class="pct">90%</span></div><div class="bar"><i></i></div></div>
+      <div class="skill-row" data-pct="85"><div class="top"><span class="name">Linux</span><span class="pct">85%</span></div><div class="bar"><i></i></div></div>
+      <div class="skill-row" data-pct="85"><div class="top"><span class="name">Reporting &amp; Analytics (Power BI, SQL)</span><span class="pct">85%</span></div><div class="bar"><i></i></div></div>
+      <div class="skill-row" data-pct="80"><div class="top"><span class="name">Access certification, compliance &amp; audit</span><span class="pct">80%</span></div><div class="bar"><i></i></div></div>
+      <div class="skill-row" data-pct="79"><div class="top"><span class="name">Custom connector development (Java, XML, JSON)</span><span class="pct">79%</span></div><div class="bar"><i></i></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- RESUME -->
+<section class="resume" id="resume">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">03 / Resume</span>
+      <h2 class="sec-title">Experience &amp; background.</h2>
+      <p class="sec-sub">Monitoring database access, governing identity, and reporting on risk — across enterprise and regulated environments.</p>
+    </div>
+
+    <div class="resume-top reveal">
+      <div class="card summary-card">
+        <div class="subhead">Summary</div>
+        <p>Innovative and deadline-driven DSM specialist with experience in Identity &amp; Access Governance, leveraging technical expertise to inform design decisions and secure, business-aligned outcomes.</p>
+        <p>Strong communicator and collaborative team player, working across cross-functional teams to deliver secure, scalable solutions.</p>
+        <div class="who">
+          <span>📍 Riverside View, Diepsloot, South Africa</span>
+          <span>📞 083 761 5870</span>
+          <span>✉️ tivaninick71@gmail.com</span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="subhead">Education &amp; Certificates</div>
+        <p style="font-size:14px;color:var(--text-dim);margin-bottom:4px;"><strong style="color:var(--text)">Diploma in Computer Science</strong></p>
+        <p style="font-size:13px;color:var(--text-faint);margin-bottom:16px;">Tshwane University of Technology, Soshanguve, Pretoria — Software Development, Database Programming &amp; Information Security</p>
+        <div class="cert-grid">
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>CompTIA Security+</div>
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Microsoft Power BI</div>
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>NQF 5 Software Dev</div>
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Thales DSF Hub Core Engineer</div>
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>MS Security, Compliance &amp; Identity</div>
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>RSA ID Plus, SecurID &amp; Governance</div>
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Trend Micro: Vision One, Deep Security</div>
+          <div><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Cisco: Cyber &amp; Data Analytics Essentials</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-cols reveal">
+      <div>
+        <div class="subhead">What the role covers</div>
+        <p style="color:var(--text-dim);font-size:14.5px;margin-bottom:16px;">Monitoring database access, analyzing audit logs, and identifying anomalous or unauthorized activity — working with security, compliance, and technical teams to keep sensitive data access governed, monitored, and reported.</p>
+        <p style="color:var(--text-dim);font-size:14.5px;margin-bottom:16px;">Also covers identity lifecycle management, role-based access control, access certification, and automating provisioning/de-provisioning workflows across enterprise systems.</p>
+        <p style="color:var(--text-dim);font-size:14.5px;">Platforms &amp; tools: SSMS, SSIS, Power BI, Excel, SQL, DAX, ETL, Java, Active Directory, LDAP, Azure, REST APIs, Postman, SoapUI.</p>
+      </div>
+      <div>
+        <div class="subhead">Professional Experience</div>
+        <div class="timeline">
+          <div class="t-item">
+            <div class="num">01</div>
+            <span class="date">2026 Feb — Present</span>
+            <h4>Data Security Analyst (Third Party)</h4>
+            <span class="org">Eskom Holdings</span>
+            <p>Design, operate, and continuously improve Imperva's Database Security Fabric to provide centralized visibility, risk detection, and compliance reporting across enterprise data assets — spanning DSF Hub, SecureSphere MX (DAM), and Data Risk Analytics (DRA) across on-prem and cloud.</p>
+          </div>
+          <div class="t-item">
+            <div class="num">02</div>
+            <span class="date">2023 Aug — Present</span>
+            <h4>Data Security Analyst / Analytics &amp; Reporting</h4>
+            <span class="org">Hosi Technologies</span>
+            <p>Reporting and analytics across data security engagements, building dashboards and KPIs that give security and compliance teams clear visibility into access and risk.</p>
+          </div>
+          <div class="t-item">
+            <div class="num">03</div>
+            <span class="date">2023 Aug — 2025 Nov</span>
+            <h4>IAM Third-Party Consultant</h4>
+            <span class="org">MTN South Africa</span>
+            <p>Ensured access to enterprise systems and data was secure, compliant, and auditable — automating identity lifecycle workflows, governing access, and delivering reporting, KPIs, and audit evidence for identity risk and compliance posture.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="resume-download reveal">
+      <p>Want the full breakdown of roles, tools, and certifications?</p>
+      <a href="https://tivaninick.vercel.app/Tivani%20Nick%20CV%20Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download full résumé (PDF)
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">04 / Portfolio</span>
+      <h2 class="sec-title">Selected work.</h2>
+      <p class="sec-sub">A collection of design and dashboard work across DSM, reporting, and IAM projects.</p>
+    </div>
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="design">Design</button>
+      <button class="filter-btn" data-filter="dashboards">Dashboards</button>
+    </div>
+    <div class="grid-portfolio reveal" id="portfolioGrid">
+
+      <a class="p-card" data-cat="design" href="https://tivaninick.vercel.app/Projects/Apex%20Mobile/1.jpg" target="_blank" rel="noopener">
+        <span class="p-idx">01</span><span class="p-cat">Design</span><span class="p-title">APEX AI Design</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="design" href="https://tivaninick.vercel.app/Projects/MLS/2.jpg" target="_blank" rel="noopener">
+        <span class="p-idx">02</span><span class="p-cat">Design</span><span class="p-title">Learning Management System</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="design" href="https://tivaninick.vercel.app/Projects/Task%20manager/2.jpg" target="_blank" rel="noopener">
+        <span class="p-idx">03</span><span class="p-cat">Design</span><span class="p-title">Task Manager Design</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="design" href="https://tivaninick.vercel.app/Projects/PSL%20Fantasy/2.jpg" target="_blank" rel="noopener">
+        <span class="p-idx">04</span><span class="p-cat">Design</span><span class="p-title">PSL Fantasy</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="design" href="https://tivaninick.vercel.app/Projects/Ovulae%20Covers/Playstore%20Cover.png" target="_blank" rel="noopener">
+        <span class="p-idx">05</span><span class="p-cat">Design</span><span class="p-title">Ovulae Cover</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="design" href="https://tivaninick.vercel.app/Projects/Apex%20Website/1.jpg" target="_blank" rel="noopener">
+        <span class="p-idx">06</span><span class="p-cat">Design</span><span class="p-title">Catalyst Fx Dynamics</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="dashboards" href="https://tivaninick.vercel.app/Projects/Access%20reviews%20Dash/1.jpg" target="_blank" rel="noopener">
+        <span class="p-idx">07</span><span class="p-cat">Dashboard</span><span class="p-title">Access Reviews Dashboard</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="dashboards" href="https://tivaninick.vercel.app/Projects/Collectoers/1.jpg" target="_blank" rel="noopener">
+        <span class="p-idx">08</span><span class="p-cat">Dashboard</span><span class="p-title">Collector Monitor</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+      <a class="p-card" data-cat="dashboards" href="https://tivaninick.vercel.app/Projects/tender/1.png" target="_blank" rel="noopener">
+        <span class="p-idx">09</span><span class="p-cat">Dashboard</span><span class="p-title">Bid Tender Tracking</span>
+        <svg class="p-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8m9 0v9"/></svg>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">05 / Services</span>
+      <h2 class="sec-title">How I can help.</h2>
+      <p class="sec-sub">Practical services spanning data security, identity governance, analytics, and design.</p>
+    </div>
+    <div class="svc-grid reveal">
+      <div class="svc-card">
+        <div class="svc-num">01</div>
+        <div class="svc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18.7 8l-5.4 5.4-3-3L3.5 17.1"/></svg></div>
+        <h3>Data Analytics</h3>
+        <p>Uncover hidden insights and trends in your data, and turn them into decisions that optimize operations and drive growth.</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">02</div>
+        <div class="svc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+        <h3>Support</h3>
+        <p>Timely, effective support for seamless operations — technical support, troubleshooting, and ongoing maintenance.</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">03</div>
+        <div class="svc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v5"/></svg></div>
+        <h3>UX/UI Design</h3>
+        <p>User-centered designs that drive engagement — visually appealing, functional interfaces built around your business goals.</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">04</div>
+        <div class="svc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+        <h3>Identity &amp; Access Management</h3>
+        <p>Robust IAM solutions that protect sensitive information, ensuring only authorized users reach critical systems and data.</p>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num">05</div>
+        <div class="svc-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div>
+        <h3>Data Security Analyst</h3>
+        <p>Monitoring, access controls, and security analytics across database activity — protecting sensitive data while delivering actionable reporting.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">06 / Contact</span>
+      <h2 class="sec-title">Let's connect.</h2>
+      <p class="sec-sub">Happy to talk about IAM, data security, or reporting roles and collaborations.</p>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-info">
+        <div class="info-row">
+          <div class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><div class="k">Address</div><div class="v">Riverside View, Diepsloot, South Africa</div></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .3 2 .6 2.9a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.5 2.9.6a2 2 0 0 1 1.8 2.1z"/></svg></div>
+          <div><div class="k">Call</div><div class="v"><a href="tel:+27837615870">+27 83 761 5870</a></div></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg></div>
+          <div><div class="k">Email</div><div class="v"><a href="mailto:tivaninick71@gmail.com">tivaninick71@gmail.com</a></div></div>
+        </div>
+        <div class="info-row">
+          <div class="ic"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          <div><div class="k">Response time</div><div class="v">Usually within 24 hours</div></div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="field"><label for="cname">Name</label><input id="cname" name="name" type="text" required placeholder="Your name"></div>
+          <div class="field"><label for="cemail">Email</label><input id="cemail" name="email" type="email" required placeholder="you@company.com"></div>
+        </div>
+        <div class="field"><label for="csubject">Subject</label><input id="csubject" name="subject" type="text" required placeholder="Let's talk about..."></div>
+        <div class="field"><label for="cmessage">Message</label><textarea id="cmessage" name="message" required placeholder="Tell me a bit about the role or project..."></textarea></div>
+        <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+          Send message
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+        <p class="form-note">Opens your email client with the message pre-filled, addressed to tivaninick71@gmail.com.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div class="foot-name">Tivani Nick Mathebula — Data Security Analyst</div>
+    <div class="foot-socials">
+      <a class="icon-btn" href="https://www.facebook.com/share/1DQDm22upE/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg></a>
+      <a class="icon-btn" href="https://www.instagram.com/tn_jun10r?igsh=anZucm14M2J5bzJl" target="_blank" rel="noopener" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/></svg></a>
+      <a class="icon-btn" href="https://www.linkedin.com/in/tivani-nick-mathebula-5b0730204" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+    </div>
+    <div class="foot-copy">© 2026 Tivani Nick Mathebula. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
